@@ -1,7 +1,7 @@
-@servers(['web' => 'deployer@192.99.127.219'])
+@servers(['web' => 'deployer@35.205.121.69'])
 
 @setup
-    $repository = 'git@gitlab.com:mehranrasulian/laravel-sample.git';
+    $repository = 'git@gitlab.com:talha.akber/laravel-sample-docker.git';
     $releases_dir = '/var/www/app/releases';
     $app_dir = '/var/www/app';
     $release = date('YmdHis');
