@@ -1,4 +1,4 @@
-image: registry.gitlab.com/mehranrasulian/laravel-sample:latest
+image: registry.gitlab.com/talha.akber/laravel-sample-docker:latest
 
 services:
   - mysql:5.7
